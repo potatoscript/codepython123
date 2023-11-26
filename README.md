@@ -78,7 +78,7 @@ email_params = {
     "body": "<p>Your email body in HTML format</p>",
     "footer": "Additional email footer",
     "smtp_server": "your_smtp_server",
-    "smtp_port": 587,
+    "smtp_port": 587, # or 21 depend on your need
 }
 
 email_notifier = EmailNotifier()
